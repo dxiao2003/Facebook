@@ -57,6 +57,8 @@ public class ConnectPlugin extends CordovaPlugin {
             add("ads_management");
             add("create_event");
             add("rsvp_event");
+            add("pages_messaging";
+            add("pages_messaging_phone_number");
         }
     };
     private final String TAG = "ConnectPlugin";

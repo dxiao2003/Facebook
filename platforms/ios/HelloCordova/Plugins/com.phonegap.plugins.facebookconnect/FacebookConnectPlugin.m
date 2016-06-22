@@ -148,14 +148,16 @@
 }
 
 /*
- * Check if a permision is a read permission.
+ * Check if a permission is a publish permission.
  */
 - (BOOL)isPublishPermission:(NSString*)permission {
     return [permission hasPrefix:@"publish"] ||
     [permission hasPrefix:@"manage"] ||
     [permission isEqualToString:@"ads_management"] ||
     [permission isEqualToString:@"create_event"] ||
-    [permission isEqualToString:@"rsvp_event"];
+    [permission isEqualToString:@"rsvp_event"] ||
+    [permission isEqualToString:@"pages_messaging"] ||
+    [permission isEqualToString:@"pages_messaging_phone_number"];
 }
 
 /*
